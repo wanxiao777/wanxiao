@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 这里我们只保留一个模板,以后需要在配置 -->
+	
+	<settings>
+		<!-- 完成javabean的属性名和数据表字段的标准映射 userName user_name -->
+		<setting name="mapUnderscoreToCamelCase" value="true"/>
+	</settings>
+	
+</configuration>
